@@ -1,0 +1,63 @@
+/* .about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+} */
+
+.about_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_main .image img{ 
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    /* background-color: aqua; */
+}
+
+.about_main .about_text h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    
+}
+
+ .about_main .about_text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+
+ .about_main .about_text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+
+.about_main .about_text p{
+   
+    font-size: 20px;
+    
+    margin-right: 30px;
+    line-height: 22px;
+}
+
+
+
+.about_text button{
+    background: var(--main-color);
+    padding: 10px ;
+    width: 150px;
+    font-size: 20px;
+    /* font-weight: 500; */
+    border: transparent;
+    color: var(--white-color);
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.about_text button:hover{
+    background: var(--white-color);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}

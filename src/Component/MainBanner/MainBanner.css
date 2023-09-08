@@ -1,0 +1,55 @@
+.main__banner{
+    width: 100%;
+    display: flex;
+    /* background-color: azure; */
+
+}
+
+.banner_text{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.banner_text h1  {
+    font-size: 50px;
+    
+    
+}
+.banner_text h1 span {
+    color: var(--main-color);
+    
+    
+}
+.banner_text p  {
+    font-size: 20px;
+    text-align: justify;
+    
+    
+}
+
+
+
+.banner_text div button {
+    background: var(--main-color);
+    padding: 10px ;
+    width: 150px;
+    font-size: 20px;
+    /* font-weight: 500; */
+    border: transparent;
+    color: var(--white-color);
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+.banner_text div button:hover {
+    background: var(--white-color);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    
+    
+   
+}
